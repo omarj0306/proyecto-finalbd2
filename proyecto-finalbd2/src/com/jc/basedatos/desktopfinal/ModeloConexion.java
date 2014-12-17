@@ -32,6 +32,8 @@ public class ModeloConexion {
 		con.setRequestProperty("Accept-Language", "en-US,en;q=0.5");
                 //con.setRequestProperty("content-type","application/json; charset=utf-8"); 
                con.setRequestProperty("content-type","text/html; charset=utf-8"); 
+            String sinopsis = null;
+            String titulo = null;
  
 		String urlParameters = "titulo="+titulo+"&sinopsis="+sinopsis;
             
